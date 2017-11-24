@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4">
+
+    <ImageView
+        android:id="@+id/imageCol_textview"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:src="@mipmap/as"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/marqueCol_textview"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:text="Marque"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/referenceCol_textview"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:text="Réference"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/stockCol_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stock"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+

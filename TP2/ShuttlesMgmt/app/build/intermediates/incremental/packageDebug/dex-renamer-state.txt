@@ -1,0 +1,7 @@
+#Tue Nov 21 02:11:48 CET 2017
+base.0=C\:\\Users\\J. Marcel\\AndroidStudioProjects\\ShuttlesMgmt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_54ed06114a27510111338d2b8246d142744ae88e
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\J. Marcel\\AndroidStudioProjects\\ShuttlesMgmt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d5b17fcc111cc36b69e583170cde7f40a17832b5\\classes.dex
+base.1=C\:\\Users\\J. Marcel\\AndroidStudioProjects\\ShuttlesMgmt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d5b17fcc111cc36b69e583170cde7f40a17832b5
+file.0=C\:\\Users\\J. Marcel\\AndroidStudioProjects\\ShuttlesMgmt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_54ed06114a27510111338d2b8246d142744ae88e\\classes.dex

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\J. Marcel\AndroidStudioProjects\ShuttlesMgmt\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\J. Marcel\AndroidStudioProjects\ShuttlesMgmt\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_54ed06114a27510111338d2b8246d142744ae88e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\J. Marcel\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="C:\Users\J. Marcel\AndroidStudioProjects\ShuttlesMgmt\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_4a44d6c2ed8628a5de5ed790e9bd7d7f20831bd8.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\J. Marcel\AndroidStudioProjects\ShuttlesMgmt\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="59418fb55e510c481eede265526501575e7619c0">
+        <dex dex="C:\Users\J. Marcel\AndroidStudioProjects\ShuttlesMgmt\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d5b17fcc111cc36b69e583170cde7f40a17832b5\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_achat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    tools:context="com.example.jmarcel.shuttlesmgmt.Controlleur.AchatsActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/bienvenusachat_textview"
+            android:layout_width="366dp"
+            android:layout_height="wrap_content"
+            android:text="Consultation des Achats"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/Layaout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/acheteur_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Acheteur"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/reference_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Réference"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/quantite_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Quantité"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+            <TextView
+                android:id="@+id/prix_textview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Prix"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="4dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/tab_achat_listview"
+            android:layout_width="match_parent"
+            android:layout_height="411dp">
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

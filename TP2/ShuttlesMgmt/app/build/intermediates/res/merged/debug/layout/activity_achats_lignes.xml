@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4">
+
+    <TextView
+        android:id="@+id/acheteurCol_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Acheteur"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/referenceCol_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Réference"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/quantiteCol_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantité"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/prixCol_textview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Prix"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="4dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>

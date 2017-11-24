@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bienvenustock_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3.60"
+            android:gravity="center"
+            android:text="                  Formulaire d'achats "
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tubeFormulaire_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tube volant : "></TextView>
+        <Spinner
+            android:id="@+id/tubeFormulaire_Spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown">
+
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nomFormulaire_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom : "></TextView>
+        <EditText
+            android:id="@+id/nomFormulaire_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Entrez votre nom ici"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="133dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/prenomFormulaire_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prénom :"></TextView>
+        <EditText
+            android:id="@+id/prenomFormulaire_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Entrez votre prénom ici"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="133dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/quantiteFormulaire_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantité : "></TextView>
+        <EditText
+            android:id="@+id/quantiteFormulaire_edittext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Quantité :"
+            tools:layout_editor_absoluteX="91dp"
+            tools:layout_editor_absoluteY="133dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/payeFormulaire_checkbox"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Payé  "
+            android:checked="false"
+            android:onClick="onCheckboxClicked"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/ajouterFormulaire_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Ajouter"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="228dp" />
+</LinearLayout>
